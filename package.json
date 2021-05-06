@@ -1,0 +1,21 @@
+{
+  "name": "start-shadow",
+  "version": "0.1.0",
+  "description": "Minimal shadow-cljs plus UIX starter",
+  "main": "index.js",
+  "author": "Mark Stuart <codeasone@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "npx shadow-cljs watch app",
+    "repl": "rlwrap npx shadow-cljs cljs-repl app",
+    "release": "npx shadow-cljs release app"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.11.23"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

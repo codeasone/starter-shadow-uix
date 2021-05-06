@@ -1,0 +1,18 @@
+{:source-paths
+ ["src"]
+ :dependencies [[uix/core "0.0.1-alpha"]
+                [uix/dom "0.0.1-alpha"]]
+
+ :builds
+ {:app {:target :browser
+
+        :output-dir "public/js"
+        :asset-path "/js"
+
+        :modules
+        {:main
+         {:entries [start_shadow_uix.core]}}
+
+        :devtools
+        {:http-root "public"
+         :http-port 8020}}}}
